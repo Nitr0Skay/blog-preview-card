@@ -9,13 +9,35 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
+      href="/assets/images/favicon-32x32.png"
     />
+    <!-- <link rel="stylesheet" href="/blog-preview-card-main/assets/fonts/static/Figtree-ExtraBold.ttf" />
+    <link rel="stylesheet" href="/blog-preview-card-main/assets/fonts/static/Figtree-Medium.ttf" /> -->
 
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet"> -->
+    
     <title>Frontend Mentor | Blog preview card</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
+      @font-face {
+          font-display: swap;
+          font-family: 'Figtree';
+          font-style: normal;
+          font-weight: 500;
+          src: url('/blog-preview-card-main/assets/fonts/static/Figtree-Medium.ttf');
+        }
+
+        @font-face {
+          font-display: swap;
+          font-family: 'Figtree';
+          font-style: normal;
+          font-weight: 800;
+          src: url('/blog-preview-card-main/assets/fonts/static/Figtree-ExtraBold.ttf');
+        }
+
       .attribution {
         font-size: 11px;
         text-align: center;
@@ -40,6 +62,11 @@
 
         --gray-500: hsl(0, 0%, 42%);
         --gray-900: hsl(0, 0%, 7%);
+      }
+
+      p {
+        font-size: 16px;
+        font-family: 'Figtree';
       }
     </style>
   </head>
