@@ -73,6 +73,11 @@
       p {
         font-size: 16px;
         font-family: 'Figtree';
+        color: var(--gray-500);
+      }
+
+      p:first-of-type {
+        color: var(--gray-900);
       }
 
       body {
@@ -101,7 +106,7 @@
         color: var(--gray-900);
         background-color: var(--yellow);
         padding: 8px 16px;
-        margin: 1.4375rem 0;
+        margin: 1.5rem 0 1rem;
       }
 
       h2 {
@@ -110,8 +115,26 @@
         font-family: 'Figtree';
       }
 
-      p {
-        color: var(--gray-500);
+      h2:hover {
+        color: var(--yellow);
+        cursor: pointer;
+      }
+
+      .user {
+        margin-top: 1.5rem;
+        display: flex;
+        align-items: center;
+      }
+
+      .avatar {
+        width: 2rem;
+        border-radius: 50%;
+        margin-right: 0.75rem;
+      }
+
+      .nickname {
+        font-weight: 800;
+        font-family: 'Figtree';
       }
 
     </style>
@@ -229,7 +252,7 @@
           content, and presentation.
         </p>
         <div class="user">
-          <img src="/blog-preview-card-main/assets/images/image-avatar.webp" alt="User Avatar" />
+          <img src="/blog-preview-card-main/assets/images/image-avatar.webp" alt="User Avatar" class="avatar" />
           <b class="nickname"> Greg Hooper </b>
         </div>
       </article>
