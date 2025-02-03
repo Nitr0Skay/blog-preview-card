@@ -95,7 +95,7 @@
         padding: 1.4375rem;
         border: 1px solid black;
         border-radius: 16px;
-        box-shadow: 6px 6px 2px black;
+        box-shadow: 8px 8px 2px black;
       }
 
       svg {
@@ -115,9 +115,10 @@
       }
 
       h2 {
-        margin: 1.5rem 0;
-        font-weight: 800;
+        margin: 1.5rem 0 1rem;
         font-family: 'Figtree';
+        font-weight: 800;
+        font-size: 1.5rem;
       }
 
       h2:hover {
@@ -140,6 +141,32 @@
       .nickname {
         font-weight: 800;
         font-family: 'Figtree';
+      }
+
+      @media (max-width: 768px) {
+        article {
+          width: 20.4375rem;
+          height: 31.3755rem;
+          padding: 1.375rem;
+        }
+
+        svg {
+          width: 17.5rem;
+          overflow: hidden;
+        }
+
+        h2 { 
+          font-size: 1rem;
+        }
+
+        #hashtagLink {
+          font-size: 1rem;
+        }
+
+        p:first-of-type {
+          font-size: 0.75rem;
+          font-weight: 800;
+        }
       }
 
     </style>
